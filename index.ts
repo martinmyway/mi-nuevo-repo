@@ -1,7 +1,12 @@
 import { getAll, getById } from "./cosas";
 
 function main() {
-  // todavía no hacemos nada
+  console.log("Todas las cosas:");
+  console.log(getAll());
+
+  console.log("Cosa con id 2:");
+  console.log(getById(2));
 }
 
 main();
+
